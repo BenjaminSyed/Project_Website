@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000000;
+
+  
+  
+  
+ 
+}
+.navbar {
+font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 15px;
+  transition: .9s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+ 
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.navbar a:hover {
+  color: #0af71e;
+  transition: 2s;
+
+}
+.navbar a.active {
+  color: #0af71e;
+}
+  /* Navigationsleiste Bis hier! Kann für weitere Website links genutzt werden */
+
+.sec1 {
+
+
+  color: white;
+  width: 100%;
+  height: 25vh;
+  margin-top: 5%;
+  padding: 0;
+  
+  background: #0c0032;
+  background-image: linear-gradient(rgba(0,0,0,06.6), rgb(0, 204, 255));
+  text-align: center;
+}
+
+.sec1 h1 {
+  color: #0af71e;
+  margin-top: 200px;
+  text-align: center;
+ 
+
+}
+
+.sec1 h2 {
+  font-size: 16px;
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 3vh;    
+}
+
+.btn1 {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.856);
+  width: 25vh;
+  border-radius: 10px;
+  height: 4vh;
+  font-size: 15px;
+  border-color: #000000;
+  box-shadow: none;
+  margin-top: 3vh;
+  border-style: none;
+}
+
+.btn1:hover{
+  color:  #0af71e;
+ transition: s;
+  
+}
+
+.btnsec1P{
+  color: #ffffff;
+  margin-top: 1vh;
+  font-weight: bold;
+}
+
+
+.p1 {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+
+.sec2 {
+  float: left;
+  padding-left: 10%;
+  text-align: left;
+  width: 100%;
+  background-color: #000000;
+  height: 20vh
+
+}
+
+
+  
+.sec2 h2 {
+  color:#0af71e;
+  font-size: 20px;
+  padding-right: 10%;
+  padding-top: 25px;
+
+  
+}
+.secPS {
+  width: 50%;
+  color: white;
+  padding-right: 10%;
+ padding-top: 25px;
+ 
+  content: "";
+  display: block;
+  clear: both;
+  
+
+
+}
+
+
+#skills::after{
+  content: "";
+  display: block;
+  clear: both;
+
+  
+  
+}
+
+#skills {
+
+  padding-bottom: 20px;
+  background-color: rgb(0, 0, 0);
+
+
+  
+}
+
+#skills .skill {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 35px;
+  color: white;
+}
+
+#skills .material-symbols-outlined{
+
+  font-size: 50px;
+  color: rgb(0, 204, 255);
+
+ 
+}
